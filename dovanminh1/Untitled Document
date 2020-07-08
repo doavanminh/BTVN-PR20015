@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xem ví dụ</title>
+    <style type="text/css">
+        div{
+           border:80px solid black;
+           
+           border-image-slice:80 80 80 80;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lập Trình Web</h1>
+    </div>
+</body>
+</html>

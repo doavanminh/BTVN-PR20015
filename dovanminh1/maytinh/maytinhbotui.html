@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Bài 1 máy tính bỏ túi</title>
+        <style>
+            #ab {
+                border:1px solid black;
+                width:116px;
+            }
+            #ac {
+                width: 106px;
+                height: 20px;
+            }
+        </style>
+        <style>
+           .a {
+               background-color: chartreuse;
+           }
+           .b {
+               background-color: blue;
+           }
+        </style>
+		<script>
+		function hienthi(gia_tri_vua_click){
+			document.getElementById("ac").value+=gia_tri_vua_click;
+		}
+ 		function xoa(){
+			document.getElementById("ac").value=""
+		}
+		function tinhtoan(){
+			document.getElementById("ac").value=eval(document.getElementById("ac").value);
+			}
+		</script>
+        <body>
+            <div id="ab">
+            <input type="text" id="ac">
+            <table>
+                <tr>
+                    <td><input value="7" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="8" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="9" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="/" type="button" class="b" onclick="hienthi(this.value)"/></td>
+                </tr>
+                <tr>
+                    <td><input value="4" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="3" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="2" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="*" type="button" class="b"onclick="hienthi(this.value)"/></td>
+                </tr>
+                <tr>
+                    <td><input value="1" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="2" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="3" type="button" class="a" onclick="hienthi(this.value)"/></td>
+                    <td><input value="+" type="button" class="b" onclick="hienthi(this.value)"/></td>
+                </tr>
+                <tr>
+                    <td><input value="C" type="button" class="b" onclick="xoa()"/></td>
+                    <td><input value="0" type="button" class="b" onclick="hienthi(this.value)"/></td>
+                    <td><input value="-" type="button" class="b" onclick="hienthi(this.value)"/></td>
+                    <td><input value="=" type="button" class="b" onclick="tinhtoan()"/></td>
+
+                </tr>
+            </table>
+            </div>
+
+        </body>
+    </head>
+</html>
