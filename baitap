@@ -1,0 +1,8 @@
+git rebase -i HEAD~3
+pick sửa read me
+pick sửa maytinh.html
+pick sửa hello
+ctrl+X
+Y
+Thêm 1 dấu # cho 2 trong 3 commit
+

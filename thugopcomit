@@ -1,0 +1,13 @@
+git rebase -i HEAD ~1
+ctr giu pick tien
+cac pick khac doi thanh s
+ctr + x
+y
+enter
+xem co bao nhieu commit(la dong ko co dau # dang truoc)
+dat dau # vao truwoc commit mun bo
+luu y bo lai mot dong ko co dau #
+cac dong khac them # dang truoc
+ctr + x
+enter
+
