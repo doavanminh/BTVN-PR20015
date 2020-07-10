@@ -1,0 +1,6 @@
+git rebase -i HEAD ~1
+ctr giu pick tien
+cac pick khac doi thanh s
+ctr + x
+y
+enter
